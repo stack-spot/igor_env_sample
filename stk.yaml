@@ -12,6 +12,18 @@ applied_templates:
     cloud_region: us-east-1
     stage_name: dev
   template_data_path: templates/stages_plugin
+- inputs:
+    any_list:
+    - item1
+    any_number: 10
+    example: any_text1
+  template_data_path: stack1/igor_plugin_env_sample
+- inputs:
+    any_list:
+    - item2
+    any_number: 11
+    example: any_text1,any_text2
+  template_data_path: stack1/igor_plugin_env_sample
 global_computed_inputs: {}
 global_inputs: {}
 stack: stack1
