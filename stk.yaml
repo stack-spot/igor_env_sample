@@ -1,0 +1,18 @@
+applied_templates:
+- inputs:
+    project_name: env1
+  template_data_path: stack1/igor_template_sample
+- inputs:
+    cloud_account_id: '12345'
+    cloud_region: us-east-1
+    stage_name: sandbox
+  template_data_path: templates/stages_plugin
+- inputs:
+    cloud_account_id: '54321'
+    cloud_region: us-east-1
+    stage_name: dev
+  template_data_path: templates/stages_plugin
+global_computed_inputs: {}
+global_inputs: {}
+stack: stack1
+stack_type: env
